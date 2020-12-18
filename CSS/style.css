@@ -32,12 +32,11 @@ header a {
 .cta-games {
   background-image: linear-gradient(to right, #560bbf 51%, #9710a9 100%);
   color: #f2f2f2;
-  padding: 8px 30px;
+  padding: 15px 35px;
   font-size: 1em;
   text-transform: uppercase;
+  letter-spacing: 4px;
   border-radius: 15px;
-  grid-column: 2;
-  grid-row: 2;
 }
 
 /* Links */
