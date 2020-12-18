@@ -8,10 +8,6 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-* {
-  transition: all 0.3s ease-in-out;
-}
-
 /* Header Section */
 .header {
   background-image: url(../images/cyberpunk2077.jpg);
