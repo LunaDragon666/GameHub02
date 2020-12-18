@@ -36,6 +36,10 @@ header a {
   color: #f2f2f2;
 }
 
+.logo {
+  width: 100%;
+}
+
 .cta-games {
   background-image: linear-gradient(to right, #560bbf 51%, #9710a9 100%);
   color: #f2f2f2;
