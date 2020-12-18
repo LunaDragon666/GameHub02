@@ -50,3 +50,9 @@ header a {
 a {
   text-decoration: none;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+}
