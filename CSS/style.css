@@ -4,7 +4,7 @@ body {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-/*Header Section */
+/* Header Section */
 .header {
   background-image: url(../images/cyberpunk2077.jpg);
   background-size: cover;
@@ -27,7 +27,6 @@ header {
 
 header a {
   color: #f2f2f2;
-  text-decoration: none;
 }
 
 .cta-games {
@@ -39,4 +38,9 @@ header a {
   border-radius: 5px;
   grid-column: 2;
   grid-row: 2;
+}
+
+/* Links */
+a {
+  text-decoration: none;
 }
