@@ -17,8 +17,8 @@ body {
 .header__content {
   position: absolute;
   text-align: center;
-  top: 100px;
-  left: 100px;
+  top: 200px;
+  left: 200px;
 }
 
 header {
