@@ -3,6 +3,7 @@ body {
   color: #f2f2f2;
 }
 
+/*Header Section */
 .header {
   background-image: url(../images/cyberpunk2077.jpg);
   background-size: cover;
@@ -21,6 +22,10 @@ body {
 
 header {
   background-color: #070f31;
+}
+
+header a {
+  color: #f2f2f2;
 }
 
 .cta-games {
