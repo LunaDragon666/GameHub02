@@ -22,3 +22,14 @@ body {
 header {
   background-color: #070f31;
 }
+
+.cta-games {
+  background-color: #a312a6;
+  color: #f2f2f2;
+  padding: 8px 30px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  grid-column: 2;
+  grid-row: 2;
+}
