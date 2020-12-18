@@ -2,3 +2,19 @@ body {
   background-color: #0e1b4f;
   color: #f2f2f2;
 }
+
+.header {
+  background-image: url(../images/cyberpunk2077.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  min-height: 70vh;
+  position: relative;
+}
+
+.header__content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
+}
