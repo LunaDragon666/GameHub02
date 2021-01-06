@@ -81,3 +81,15 @@ i {
   top: 100px;
   left: 100px;
 }
+
+.main-cta {
+  background-color: #bb0000;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px 80px;
+}
