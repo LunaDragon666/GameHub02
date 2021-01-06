@@ -1,68 +1,173 @@
-body {
-  background-color: #0e1b4f;
-  color: #f2f2f2;
-  font-family: Futura, sans-serif;
-  min-height: 100vh;
-  margin: 0px;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-/* Header Section */
-.header {
-  background-image: url(../images/cyberpunk2077.jpg);
+.header-dark {
+  background: url("https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg")
+    #444;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  min-height: 80vh;
-  position: relative;
-  box-shadow: 1px 1px 5px #0e1b4f;
+  padding-bottom: 80px;
 }
 
-.header__content {
-  position: absolute;
-  text-align: center;
-  top: 200px;
-  left: 200px;
+@media (min-width: 768px) {
+  .header-dark {
+    padding-bottom: 120px;
+  }
 }
 
-header,
-footer {
-  background-color: #070f31;
-  color: #f2f2f2;
+.header-dark .navbar {
+  background: transparent;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
 }
 
-header a {
-  color: #f2f2f2;
+@media (min-width: 768px) {
+  .header-dark .navbar {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
 }
 
-.logo {
-  width: 100%;
-}
-
-.cta-games {
-  background-image: linear-gradient(to right, #560bbf 51%, #9710a9 100%);
-  color: #f2f2f2;
-  padding: 15px 35px;
-  font-size: 1em;
+.header-dark .navbar .navbar-brand {
   font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  border-radius: 15px;
-  box-shadow: 1px 1px 5px #0e1b4f;
+  color: inherit;
 }
 
-/* Links */
-a {
+.header-dark .navbar .navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+.header-dark .navbar .navbar-collapse span {
+  margin-top: 5px;
+}
+
+.header-dark .navbar .navbar-collapse span .login {
+  color: #d9d9d9;
+  margin-right: 0.5rem;
   text-decoration: none;
 }
 
-.topnav {
-  color: red;
+.header-dark .navbar .navbar-collapse span .login:hover {
+  color: #fff;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
+.header-dark .navbar .navbar-toggler {
+  border-color: #747474;
+}
+
+.header-dark .navbar .navbar-toggler:hover,
+.header-dark .navbar-toggler:focus {
+  background: none;
+}
+
+.header-dark .navbar .navbar-toggler {
+  color: #eee;
+}
+
+.header-dark .navbar .navbar-collapse,
+.header-dark .navbar .form-inline {
+  border-color: #636363;
+}
+
+@media (min-width: 992px) {
+  .header-dark .navbar.navbar .navbar-nav .nav-link {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+.header-dark .navbar.navbar-dark .navbar-nav .nav-link {
+  color: #d9d9d9;
+}
+
+.header-dark .navbar.navbar-dark .navbar-nav .nav-link:focus,
+.header-dark .navbar.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fcfeff !important;
+  background-color: transparent;
+}
+
+.header-dark .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.header-dark .navbar .dropdown-menu .dropdown-item:focus,
+.header-dark .navbar .dropdown-menu .dropdown-item {
+  line-height: 2;
+  font-size: 14px;
+  color: #37434d;
+}
+
+.header-dark .navbar .dropdown-menu .dropdown-item:focus,
+.header-dark .navbar .dropdown-menu .drodown-item:hover {
+  background: #ebeff1;
+}
+
+.header-dark .navbar .action-button,
+.header-dark .navbar .action-button:active {
+  background: #208f8f;
+  border-radius: 20px;
+  font-size: inherit;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+  padding: 0.5rem 0.8rem;
+  transition: background-color 0.25s;
+}
+
+.header-dark .navbar .action-button:hover {
+  background: #269d9d;
+}
+
+.header-dark .navbar .form-inline label {
+  color: #ccc;
+}
+
+.header-dark .navbar .form-inline .search-field {
+  display: inline-block;
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  color: #ccc;
+  box-shadow: none;
+  color: inherit;
+  transition: border-bottom-color 0.3s;
+}
+
+.header-dark .navbar .form-inline .search-field:focus {
+  border-bottom: 1px solid #ccc;
+}
+
+.header-dark .hero {
+  margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+  .header-dark .hero {
+    margin-top: 20px;
+  }
+}
+
+.header-dark .hero h1 {
+  color: #fff;
+  font-family: "Bitter", serif;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .header-dark .hero h1 {
+    margin-bottom: 50px;
+    line-height: 1.5;
+  }
+}
+
+.header-dark .hero .embed-responsive iframe {
+  background-color: #666;
 }
