@@ -32,19 +32,19 @@ body {
   font-size: 1.2em;
 }
 
-#nav {
+nav {
   position: absolute;
   top: -15px;
   left: 400px;
   height: 60px;
 }
 
-#nav ul li {
+nav ul li {
   float: left;
   list-style: none;
 }
 
-#nav ul li a {
+nav ul li a {
   display: block;
   color: white;
   text-decoration: none;
