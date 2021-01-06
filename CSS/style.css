@@ -6,6 +6,11 @@ body {
   font-family: helvetica, sans-serif;
 }
 
+h1,
+h2 {
+  color: #f2f2f2;
+}
+
 /* Navigation */
 .container {
   position: relative;
