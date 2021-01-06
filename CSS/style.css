@@ -1,6 +1,8 @@
 body {
   background: #6699ff;
-  font-family: clicker;
+  font-family: clicker, sans-serif;
+  font-style: normal;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   border: 0;
