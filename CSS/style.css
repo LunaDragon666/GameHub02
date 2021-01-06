@@ -69,10 +69,6 @@ button {
   cursor: pointer;
 }
 
-i {
-  margin: 0px 15px;
-}
-
 /* Header */
 .welcome {
   background: url("../images/cyberpunk2077.jpg") center bottom no-repeat;
@@ -115,12 +111,17 @@ i {
 }
 
 input {
-  height: 20px;
+  height: 23px;
   width: 645px;
   margin-right: 40px;
   border-radius: 10px;
+  border: none;
 }
 
 i {
   margin: 0px 25px;
+}
+
+.active {
+  text-decoration: underline;
 }
