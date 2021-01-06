@@ -112,3 +112,7 @@ i {
   transition: left ease-in-out 1s;
   opacity: 0.3;
 }
+
+input {
+  width: 100px;
+}
