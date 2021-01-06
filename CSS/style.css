@@ -20,7 +20,7 @@ body {
   width: 100%;
   height: 60px;
   line-height: 60px;
-  background: #222;
+  background: #000;
   color: #f2f2f2;
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 button {
-  background-color: #a312a6;
+  background-color: #560bbf;
   border: none;
   color: white;
   padding: 5px 20px;
