@@ -35,6 +35,7 @@ body {
 nav {
   position: absolute;
   top: -15px;
+  right: 0px;
 }
 
 nav ul li {
