@@ -83,7 +83,6 @@ i {
 .welcome__content {
   position: absolute;
   text-align: center;
-  text-decoration: none;
   top: 150px;
   left: 200px;
 }
@@ -93,6 +92,7 @@ i {
   color: #f2f2f2;
   font-size: 1em;
   text-transform: uppercase;
+  text-decoration: none;
   border-radius: 5px;
   position: relative;
   display: inline-block;
