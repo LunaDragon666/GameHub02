@@ -50,11 +50,3 @@ body {
   text-decoration: none;
   padding: 0 15px;
 }
-
-.cart {
-  cursor: pointer;
-}
-
-.cart:hover {
-  color: #fff;
-}
