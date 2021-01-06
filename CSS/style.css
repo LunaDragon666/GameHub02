@@ -93,3 +93,16 @@ i {
   overflow: hidden;
   padding: 10px 80px;
 }
+
+.main-cta:before {
+  content: "";
+  padding: 10px;
+  background: #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 100px;
+  top: -40px;
+  left: -100px;
+  transition: left ease-in-out 1s;
+  opacity: 0.3;
+}
