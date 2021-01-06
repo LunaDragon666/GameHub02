@@ -7,7 +7,7 @@ body {
   font: inherit;
   vertical-align: baseline;
 }
-.menu {
+.container {
   position: relative;
   margin: 0 auto;
   width: 94%;
@@ -15,7 +15,7 @@ body {
   font-family: helvetica, sans-serif;
 }
 
-#topmenu {
+#header {
   z-index: 2;
   position: fixed;
   width: 100%;
@@ -24,6 +24,7 @@ body {
   background: #222;
   color: white;
 }
+
 #header h1 {
   top: 0px;
   margin: 0px;
