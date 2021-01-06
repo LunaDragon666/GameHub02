@@ -112,3 +112,12 @@ i {
   transition: left ease-in-out 1s;
   opacity: 0.3;
 }
+
+input [type="text"] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
