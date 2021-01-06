@@ -10,9 +10,6 @@ body {
   width: 94%;
   max-width: 1000px;
   font-family: helvetica, sans-serif;
-}
-
-.header {
   z-index: 2;
   position: fixed;
   width: 100%;
