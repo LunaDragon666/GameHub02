@@ -34,8 +34,8 @@ body {
 
 #nav {
   position: absolute;
-  right: 0;
   top: -15px;
+  left: 400px;
   height: 60px;
 }
 
