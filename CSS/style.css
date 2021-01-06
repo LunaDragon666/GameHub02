@@ -117,6 +117,10 @@ i {
 input {
   height: 20px;
   width: 645px;
-  margin-right: 30px;
+  margin-right: 40px;
   border-radius: 10px;
+}
+
+i {
+  margin: 0px 20px;
 }
