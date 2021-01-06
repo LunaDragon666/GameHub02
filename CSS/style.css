@@ -69,7 +69,7 @@ i {
 
 /* Header */
 .welcome {
-  background: url("images/cyberpunk2077.jpg") center bottom no-repeat;
+  background: url("../images/cyberpunk2077.jpg") center bottom no-repeat;
   background-size: cover;
   min-height: 70vh;
   position: relative;
