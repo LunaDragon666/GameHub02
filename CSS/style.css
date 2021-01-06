@@ -48,6 +48,14 @@ body {
   padding: 0 10px;
 }
 
+.cart {
+  cursor: pointer;
+}
+
+.cart:hover {
+  color: #fff;
+}
+
 @media (max-width: 600px) {
   #header .container {
     width: 100%;
