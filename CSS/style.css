@@ -59,6 +59,7 @@ nav ul li a {
 button {
   background-color: #560bbf;
   border: none;
+  border-radius: 10px;
   color: white;
   padding: 5px 20px;
   text-align: center;
