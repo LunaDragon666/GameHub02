@@ -51,9 +51,9 @@ nav ul li a {
   display: block;
   color: white;
   text-decoration: none;
-  padding: 0 30px;
-  margin-right: 40px;
-  margin-left: -80px;
+  padding: 0 45px;
+  margin-right: 0px;
+  margin-left: -75px;
 }
 
 button {
@@ -113,13 +113,13 @@ button {
 input {
   height: 23px;
   width: 645px;
-  margin-right: 40px;
+  margin-right: 30px;
   border-radius: 10px;
   border: none;
 }
 
 i {
-  margin: 0px 25px;
+  margin: 0px 15px;
 }
 
 .active {
