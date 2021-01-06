@@ -6,7 +6,7 @@ body {
 }
 .container {
   position: relative;
-  margin: 0 auto;
+  margin: 0px 50px;
   width: 94%;
   max-width: 1000px;
   font-family: helvetica, sans-serif;
@@ -45,7 +45,7 @@ nav ul li a {
   color: white;
   text-decoration: none;
   padding: 0 10px;
-  margin-right: 90px;
+  margin-right: 150px;
 }
 
 button {
