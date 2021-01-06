@@ -51,9 +51,9 @@ nav ul li a {
   display: block;
   color: white;
   text-decoration: none;
-  padding: 0 25px;
-  margin-right: 80px;
-  margin-left: -100px;
+  padding: 0 30px;
+  margin-right: 40px;
+  margin-left: -80px;
 }
 
 button {
