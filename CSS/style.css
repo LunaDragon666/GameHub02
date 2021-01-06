@@ -83,6 +83,7 @@ i {
 .welcome__content {
   position: absolute;
   text-align: center;
+  text-decoration: none;
   top: 150px;
   left: 200px;
 }
