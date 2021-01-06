@@ -5,6 +5,7 @@ body {
   vertical-align: baseline;
 }
 .container {
+  position: relative;
   margin: 0 auto;
   width: 94%;
   max-width: 1000px;
