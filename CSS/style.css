@@ -4,6 +4,8 @@ body {
   font: inherit;
   vertical-align: baseline;
 }
+
+/* Navigation */
 .container {
   position: relative;
   margin: 0px 50px;
@@ -63,4 +65,19 @@ button {
 
 i {
   margin: 0px 15px;
+}
+
+/* Header */
+.welcome {
+  background: url("images/cyberpunk2077.jpg") center bottom no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  position: relative;
+}
+
+.welcome__content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
 }
