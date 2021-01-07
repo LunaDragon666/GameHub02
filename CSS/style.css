@@ -66,7 +66,7 @@ input {
   height: 23px;
   width: 500px;
   margin-right: 60px;
-  margin-left: -20px;
+  margin-left: -25px;
   border-radius: 10px;
   border: none;
 }
@@ -111,6 +111,7 @@ i {
 
 /* Welcome CTA-button */
 .main-cta {
+  font-family: "Roboto Mono";
   background: linear-gradient(120deg, #a312a6 0%, #560bbf 100%);
   color: #f2f2f2;
   font-size: 1em;
@@ -134,9 +135,4 @@ footer {
   padding: 20px;
   color: #f2f2f2;
   background-color: #06041f;
-}
-
-footer::before,
-footer::after {
-  content: "/";
 }
