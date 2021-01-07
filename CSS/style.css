@@ -95,9 +95,9 @@ i {
 
 /* Header */
 .welcome {
-  background: url("../images/header.jpg") center bottom no-repeat;
+  background: url("../images/main_header.jpg") center bottom no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
 }
 
