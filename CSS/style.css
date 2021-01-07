@@ -44,7 +44,7 @@ nav {
 }
 
 /* Main Menu */
-nav ul li {
+/*nav ul li {
   float: left;
   list-style: none;
 }
@@ -60,7 +60,7 @@ nav ul li a {
 
 li a:hover {
   color: #a312a6;
-}
+}*/
 
 /* Search Bar */
 input {
