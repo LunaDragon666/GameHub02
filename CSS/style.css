@@ -58,10 +58,6 @@ nav ul li a {
   margin-left: -75px;
 }
 
-.active {
-  text-decoration: underline;
-}
-
 /* Search Bar */
 input {
   background-color: #f2f2f2;
