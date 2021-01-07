@@ -120,6 +120,9 @@ i {
   padding: 15px 50px;
 }
 
-.main-cta:before {
-  background: #000;
+.main-cta:hover {
+  color: #a312a6;
+  background: #f2f2f2;
+  border: 3px #a312a6;
+  border-radius: 15px;
 }
