@@ -121,5 +121,5 @@ i {
 }
 
 .main-cta:before {
-  content: "";
+  background: #000;
 }
