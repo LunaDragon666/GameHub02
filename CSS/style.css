@@ -97,7 +97,7 @@ i {
 .welcome {
   background: url("../images/cyberpunk2077.jpg") center bottom no-repeat;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 92vh;
   position: relative;
 }
 
