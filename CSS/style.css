@@ -87,6 +87,12 @@ button {
   cursor: pointer;
 }
 
+button.login {
+  background-color: #d7b9ff;
+  color: #560bbf;
+  font-weight: bold;
+}
+
 i {
   margin: 0px 35px;
 }
