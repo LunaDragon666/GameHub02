@@ -66,6 +66,7 @@ input {
   height: 23px;
   width: 500px;
   margin-right: 60px;
+  margin-left: -20px;
   border-radius: 10px;
   border: none;
 }
