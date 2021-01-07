@@ -91,15 +91,15 @@ i {
 .welcome {
   background: url("../images/gamer.jpg") center bottom no-repeat;
   background-size: cover;
-  min-height: 85vh;
+  min-height: 100vh;
   position: relative;
 }
 
 .welcome__content {
   position: absolute;
   text-align: center;
-  top: 200px;
-  left: 200px;
+  top: 275px;
+  left: 625px;
 }
 
 /* Welcome CTA-button */
