@@ -64,9 +64,9 @@ textarea.feedback-input {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 20px;
   background: #a1a1a1;
-  border-radius: 35px;
+  border-radius: 15px;
 }
 
 /* Send Button */
