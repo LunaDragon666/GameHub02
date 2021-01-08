@@ -22,6 +22,10 @@ footer {
 }
 
 /* Contact Form */
+.form-text {
+  background-color: yellow;
+}
+
 form {
   max-width: 420px;
   margin: 50px auto;
@@ -31,12 +35,6 @@ textarea {
   height: 150px;
   line-height: 150%;
   resize: vertical;
-}
-
-textarea.feedback-input {
-  margin-left: -23px;
-  max-height: 240px;
-  border-radius: 15px;
 }
 
 .feedback-input {
@@ -49,6 +47,14 @@ textarea.feedback-input {
   box-sizing: border-box;
 }
 
+/* Message Box */
+textarea.feedback-input {
+  margin-left: -23px;
+  max-height: 240px;
+  border-radius: 15px;
+}
+
+/* Send Button */
 [type="submit"] {
   width: 100px;
   height: 35px;
