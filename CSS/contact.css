@@ -34,19 +34,14 @@ textarea {
 }
 
 .feedback-input {
-  color: white;
+  color: #f2f2f2;
   font-family: "Roboto Mono";
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
   border: 2px solid #f2f2f2;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
   width: 100%;
   box-sizing: border-box;
-  outline: 0;
 }
 
 [type="submit"] {
