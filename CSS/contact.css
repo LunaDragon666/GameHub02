@@ -3,3 +3,7 @@
 }
 
 /* Contact Form */
+.contact-form {
+  display: flex;
+  text-align: left;
+}
