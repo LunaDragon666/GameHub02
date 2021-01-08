@@ -37,6 +37,7 @@ footer {
 form {
   max-width: 460px;
   margin: 40px auto;
+  padding: 5px;
 }
 
 textarea {
