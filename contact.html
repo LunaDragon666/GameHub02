@@ -52,39 +52,19 @@ GameHub
 </header>
 
 <!-- Contact Form -->
-<main class="contact">
-<h1>Leave us a request!</h1>
-<p>Fill inn the details in the contact form below to tell us how we can serve you and get in contact with you.</p>
-<p>We will respond within 24 hours during our working days and hours.</p>
-<form method="POST">
 <div class="contact-form">
-<section>
-<label>
-<span>Name</span>
-<input name="name" type="text" placeholder="Name"/>
-</label>
-<label>
-<span>Email</span>
-<input name="email" type="email" placeholder="Email"/>
-</label>
-</section>
-<!-- Optimal Field -->
-<label>
-<span>Subject</span>
-<input name="subject" type="text" placeholder="Subject"/>
-</label>
-<!-- Typing Message -->
-<section>
-<label>
-<span>Message</span>
-<textarea name="message" placeholder="Message"></textarea>
-</section>
-<!-- Send-button -->
-<input name="submit" type="submit" value="Send"/>
-</label>
-</div>
+<form method="POST">
+<label for="name">* Name</label>
+<input type="text" id="name" name="name" placeholder="First and last name">
+<label for="name">* Email</label>
+<input type="text" id="email" name="email" placeholder="Your e-mail adress">
+<label for="name">Subject</label>
+<input type="text" id="subject" name="subject" placeholder="What is your request about?">
+<label for="message">* Message</label>
+<textarea id="message" name="message" placeholder="Type your request here"></textarea>
+<input type="submit" value="Send Request">
 </form>
-</main>
+</div>
 
 <!-- Footer -->
 <footer>
