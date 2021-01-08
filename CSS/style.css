@@ -47,6 +47,7 @@ nav ul li {
   list-style: none;
 }
 
+/* Links */
 nav ul li a {
   display: block;
   color: white;
@@ -57,6 +58,7 @@ nav ul li a {
 }
 
 li a:hover {
+  text-decoration: line-through;
   color: #a312a6;
 }
 
