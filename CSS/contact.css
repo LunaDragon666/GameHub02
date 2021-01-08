@@ -68,10 +68,10 @@ textarea.feedback-input {
   font-family: "roboto mono";
   font-weight: normal;
   letter-spacing: 2px;
-  transform: uppercase;
 }
 
 input[type="submit"]:hover {
   background: #f2f2f2;
-  border: 2px solid #560bbf;
+  border: 2px solid #a312a6;
+  color: #a312a6;
 }
