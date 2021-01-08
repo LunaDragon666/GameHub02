@@ -15,6 +15,12 @@ p {
   position: inherit;
 }
 
+footer {
+  position: absolute;
+  bottom: 0px;
+  min-width: 1495px;
+}
+
 /* Contact Form */
 form {
   max-width: 420px;
