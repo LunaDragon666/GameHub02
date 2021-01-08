@@ -94,8 +94,18 @@ button.login {
   font-weight: bold;
 }
 
+/* Navbar Icons */
 i {
   margin: 0px 35px;
+}
+
+/* Shopping Cart */
+i.fa.fa-shopping-cart {
+  cursor: pointer;
+}
+
+i.fa.fa-shopping-cart:hover {
+  color: #a312a6;
 }
 
 /* Header */
