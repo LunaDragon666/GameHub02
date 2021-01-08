@@ -2,10 +2,6 @@
   position: inherit;
 }
 
-footer {
-  height: 0;
-}
-
 /* Contact Form */
 .contact {
   max-width: 1000px;
