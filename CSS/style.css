@@ -90,10 +90,16 @@ button {
   cursor: pointer;
 }
 
+/* Login */
 button.login {
   background-color: #d7b9ff;
   color: #1d073c;
   font-weight: bold;
+}
+
+button.login:hover {
+  background-color: #f2f2f2;
+  border: 2px solid #560bbf;
 }
 
 /* Navbar Icons */
