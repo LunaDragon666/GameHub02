@@ -33,11 +33,16 @@ textarea {
   resize: vertical;
 }
 
+textarea.feedback-input {
+  margin-left: -23px;
+  max-height: 240px;
+  border-radius: 15px;
+}
+
 .feedback-input {
   color: #f2f2f2;
   font-family: "Roboto Mono";
   border: 2px solid #f2f2f2;
-  transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
   width: 100%;
