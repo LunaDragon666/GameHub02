@@ -5,16 +5,14 @@ button.signup {
 }
 
 /* Checkout Boxes */
+label.checkbox {
+  display: flex;
+}
+
 [type="radio"] {
   margin-left: -265px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-p.remember_me {
-  font-size: 0.7em;
-  margin-top: -25px;
-  margin-left: 20px;
 }
 
 /* Register Button */
