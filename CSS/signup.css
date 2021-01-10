@@ -11,4 +11,8 @@ button.signup {
   margin-bottom: 10px;
 }
 
+p.remember_me {
+  margin-top: -25px;
+}
+
 /* Register Button */
