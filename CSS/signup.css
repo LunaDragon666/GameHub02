@@ -9,9 +9,24 @@ p.newsletter {
   margin-left: -25px;
 }
 
-input[type="radio"] {
-  margin-left: -265px;
-  margin-top: 10px;
+.container {
+  display: block;
+  position: relative;
+  margin-left: -20px;
+}
+
+p.checkmark {
+  width: 200%;
+  line-height: 1.7;
+  margin-bottom: -25px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  margin-left: 415px;
+  margin-top: 7px;
+  height: 15px;
+  filter: hue-rotate(45deg);
 }
 
 /* Register Button */
