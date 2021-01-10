@@ -7,4 +7,11 @@ button.signup {
 /* Checkout Boxes */
 [type="checkbox"] {
   margin-left: -265px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Register Button */
+[type="submit"] {
+  width: 110px;
 }
