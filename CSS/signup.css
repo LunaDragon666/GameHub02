@@ -18,6 +18,7 @@ p.checkmark {
   margin-top: 5px;
 }
 
+/* Checkbox Decor */
 input[type="checkbox"] {
   width: 15px;
   margin-left: 415px;
