@@ -40,6 +40,12 @@ p.login {
   letter-spacing: 2.5px;
 }
 
+.registerbtn:hover {
+  background: #f2f2f2;
+  border: 2px solid #a312a6;
+  color: #a312a6;
+}
+
 /* Terms and Privacy info */
 span.terms {
   font-weight: bold;
