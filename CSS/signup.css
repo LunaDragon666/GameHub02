@@ -9,12 +9,6 @@ p.newsletter {
   margin-left: -25px;
 }
 
-.container {
-  display: block;
-  position: relative;
-  margin-left: -20px;
-}
-
 p.checkmark {
   width: 200%;
   line-height: 1.7;
