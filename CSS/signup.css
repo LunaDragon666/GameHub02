@@ -24,6 +24,7 @@ p.login {
 a {
   text-decoration: none;
   color: #f2f2f2;
+  font-weight: bold;
 }
 
 a:hover {
