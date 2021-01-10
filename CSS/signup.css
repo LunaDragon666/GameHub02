@@ -11,6 +11,7 @@ label {
 }
 
 /* Register Button */
-.agreement {
+.agreement,
+p.login {
   text-align: center;
 }
