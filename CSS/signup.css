@@ -41,6 +41,7 @@ p.login {
   padding-bottom: 0;
   margin-top: 25px;
   margin-left: 150px;
+  margin-bottom: -5px;
   font-weight: bold;
   letter-spacing: 2.5px;
 }
