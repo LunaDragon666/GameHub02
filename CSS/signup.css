@@ -33,10 +33,6 @@ p.login {
   margin-right: 50px;
 }
 
-p.login {
-  margin-top: 25px;
-}
-
 .registerbtn {
   width: 120px;
   height: 40px;
@@ -77,4 +73,8 @@ a {
 
 a:hover {
   color: #a312a6;
+}
+
+p.login {
+  margin-top: 45px;
 }
