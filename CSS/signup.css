@@ -5,5 +5,9 @@ button.signup {
 }
 
 /* Checkout Boxes */
+label {
+  color: #f2f2f2;
+  font-size: 0.8em;
+}
 
 /* Register Button */
