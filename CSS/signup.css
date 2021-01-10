@@ -19,3 +19,13 @@ p.login {
 p.login {
   margin-top: 25px;
 }
+
+/* Login */
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+a:hover {
+  color: #a312a6;
+}
