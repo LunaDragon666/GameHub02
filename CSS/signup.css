@@ -1,5 +1,10 @@
-/* Signup Button*/
+/* Signup Button */
 button.signup {
   background-color: #a312a6;
   text-decoration: underline;
+}
+
+/* Checkout Boxes */
+[type="checkbox"] {
+  margin-left: -265px;
 }
