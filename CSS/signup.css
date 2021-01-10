@@ -64,6 +64,7 @@ span.terms {
 span.terms:hover {
   text-decoration: underline;
   color: #a312a6;
+  cursor: pointer;
 }
 
 /* Login */
