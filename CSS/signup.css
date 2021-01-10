@@ -5,9 +5,13 @@ button.signup {
 }
 
 /* Checkout Boxes */
+p.newsletter {
+  margin-left: -25px;
+}
+
 label {
   color: #f2f2f2;
-  font-size: 0.8em;
+  font-size: 2em;
 }
 
 /* Register Button */
