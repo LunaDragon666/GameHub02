@@ -21,7 +21,7 @@ p.login {
 }
 
 .registerbtn {
-  width: 110px;
+  width: 120px;
   height: 40px;
   background: #a312a6;
   border: 0;
@@ -31,9 +31,8 @@ p.login {
   padding-bottom: 0;
   margin-top: 5px;
   margin-left: 150px;
-  font-family: "roboto-mono";
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
 }
 
 /* Terms and Privacy info */
