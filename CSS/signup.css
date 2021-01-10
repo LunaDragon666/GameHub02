@@ -20,6 +20,15 @@ p.login {
   margin-top: 25px;
 }
 
+/* Terms and Privacy info */
+span.terms {
+  font-weight: bold;
+}
+
+span.terms:hover {
+  color: #a312a6;
+}
+
 /* Login */
 a {
   text-decoration: none;
