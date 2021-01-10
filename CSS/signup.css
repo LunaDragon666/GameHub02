@@ -9,6 +9,11 @@ p.newsletter {
   margin-left: -25px;
 }
 
+input[type="radio"] {
+  margin-left: -265px;
+  margin-top: 10px;
+}
+
 /* Register Button */
 .agreement,
 p.login {
