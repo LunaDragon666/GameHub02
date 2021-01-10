@@ -12,17 +12,3 @@ button.signup {
 }
 
 /* Register Button */
-[type="register"] {
-  width: 110px;
-  height: 35px;
-  background: #a312a6;
-  border: 0;
-  cursor: pointer;
-  color: #f2f2f2;
-  padding-bottom: 0;
-  margin-top: 5px;
-  margin-left: 150px;
-  font-family: "roboto-mono";
-  font-weight: bold;
-  letter-spacing: 2px;
-}
