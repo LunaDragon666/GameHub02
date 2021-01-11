@@ -16,6 +16,11 @@ section.p {
   background-color: white; */
 }
 
+p {
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
 img {
   padding: 8px;
   margin-right: 20px;
