@@ -19,4 +19,5 @@ section.p {
 img {
   padding: 0.5em;
   float: left;
+  width: 50%;
 }
