@@ -15,6 +15,12 @@ section.p {
   background-color: white;
 }
 
+p {
+  color: #06041f;
+  line-height: 2;
+  font-size: 1em;
+}
+
 img {
   padding: 8px;
   float: left;
