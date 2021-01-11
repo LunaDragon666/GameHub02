@@ -16,8 +16,16 @@ section.p {
   background-color: white; */
 }
 
-p {
+h2,
+h3 {
+  background: #f2f2f2;
+}
+
+p.first_paragraph,
+p.second_paragraph,
+p.third_paragraph {
   font-size: 0.8em;
+  line-height: 1.5;
 }
 
 img {
