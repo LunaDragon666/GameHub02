@@ -1,3 +1,5 @@
+/* About Page*/
+
 section {
   width: 400px;
   margin: 50px;
@@ -12,16 +14,15 @@ section.p {
   height: 535px;
   padding: 10px;
   margin: 0;
-  /* border-radius: 10px;
-  background-color: white; */
 }
 
+/* Paragraphs*/
 h2 {
   background: #7245b2;
   color: #f2f2f2;
   border-radius: 25px;
   margin-top: 8px;
-  margin-left: 10px;
+  margin-left: 795px;
   margin-right: -10px;
   margin-bottom: -5px;
 }
@@ -39,9 +40,15 @@ p.third_paragraph {
   line-height: 1.5;
 }
 
+/* Image */
 img {
   padding: 8px;
   margin-right: 20px;
   float: left;
   width: 54.6%;
+  opacity: 0.4;
+}
+
+img:hover {
+  opacity: 0.9;
 }
