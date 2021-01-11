@@ -1,7 +1,6 @@
 .section {
-  border: 3px solid blue;
-  padding: 20px 40px 40px;
-  max-width: 600px;
+  padding: 30px 60px;
+  max-width: 1057px;
 }
 
 .container__image {
