@@ -11,13 +11,14 @@ section.p {
   width: 1415px;
   height: 535px;
   padding: 10px;
-  margin: 8px;
-  border-radius: 10px;
-  background-color: white;
+  margin: 0;
+  /* border-radius: 10px;
+  background-color: white; */
 }
 
-.about_us {
-  color: #0e1b4f;
+p {
+  line-height: 2;
+  font-size: 1em;
 }
 
 img {
