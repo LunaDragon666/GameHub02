@@ -1,4 +1,22 @@
-.intro {
-  display: inline-block;
-  margin: 150px;
+.about {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.col {
+  margin: 10px;
+  background-color: #ccc;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 200px;
+}
+.col > div {
+  padding: 10px;
 }
