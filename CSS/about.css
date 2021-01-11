@@ -1,22 +1,35 @@
-.about {
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 10px;
+section.some-page-wrapper {
+  margin: 15px;
+  background-color: red;
 }
+
 .row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  border: 1px solid #ccc;
-  margin-right: -10px;
-  margin-left: -10px;
+  width: 100%;
 }
-.col {
-  margin: 10px;
-  background-color: #ccc;
-  flex-grow: 1;
-  flex-shrink: 1;
-  min-width: 200px;
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
-.col > div {
-  padding: 10px;
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 100px;
+}
+
+.green-column {
+  height: 100px;
+  background-color: green;
 }
