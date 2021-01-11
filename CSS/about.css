@@ -1,1 +1,8 @@
+img.intro__images {
+  width: 50%;
+}
 
+.presentation_content {
+  max-width: 1000px;
+  display: flex;
+}
