@@ -1,6 +1,6 @@
 section {
   width: 400px;
-  margin: 0 auto;
+  margin: 50px;
 }
 
 section.p {
@@ -8,8 +8,8 @@ section.p {
 }
 
 .user {
-  width: 400px;
-  height: 165px;
+  width: 1415px;
+  height: 500px;
   margin: 2em 0;
   border: 3px solid #e18728;
   border-radius: 10px;
@@ -17,7 +17,7 @@ section.p {
 }
 
 img {
-  padding: 0.5em;
+  padding: 8, 5px;
   float: left;
-  width: 50%;
+  width: 51.3%;
 }
