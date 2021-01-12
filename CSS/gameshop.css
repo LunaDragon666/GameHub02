@@ -90,8 +90,3 @@ p.product_info {
   display: table;
   clear: both;
 }
-.columns .product-item {
-  width: 31.3333333333%;
-  float: left;
-  margin: 0 1% 2%;
-}
