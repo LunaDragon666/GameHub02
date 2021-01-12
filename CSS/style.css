@@ -125,8 +125,9 @@ i.fa.fa-shopping-cart:hover {
 .welcome {
   background: url("../images/cyberpunk2077.jpg") center bottom no-repeat;
   background-size: cover;
-  min-height: 92vh;
+  min-height: 100vh;
   position: relative;
+  border-radius: 0px 0px 25px 25px;
 }
 
 .welcome__content {
@@ -152,11 +153,32 @@ i.fa.fa-shopping-cart:hover {
   display: inline-block;
   overflow: hidden;
   padding: 15px 50px;
+  margin: 10px 660px 40px;
 }
 
 .main-cta:hover {
   color: #a312a6;
   background: #f2f2f2;
+}
+
+/* Gameshop */
+h2 {
+  font-size: 2.3em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.boxdec {
+  box-sizing: border-box;
+  background-color: #a312a6;
+  border-radius: 10px;
+  width: 45px;
+  height: 5px;
+  margin-left: 738px;
+  margin-bottom: 52px;
 }
 
 /* Footer */
