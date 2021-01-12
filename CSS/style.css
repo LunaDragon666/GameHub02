@@ -153,7 +153,7 @@ i.fa.fa-shopping-cart:hover {
   display: inline-block;
   overflow: hidden;
   padding: 15px 50px;
-  margin: 10px 660px 40px;
+  margin: 50px 660px 40px;
 }
 
 .main-cta:hover {
@@ -163,7 +163,7 @@ i.fa.fa-shopping-cart:hover {
 
 /* Gameshop */
 h2 {
-  font-size: 2.3em;
+  font-size: 2.1em;
   text-align: center;
   text-transform: uppercase;
   color: #f2f2f2;
