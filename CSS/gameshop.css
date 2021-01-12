@@ -1,16 +1,18 @@
+/* Gameshop Flexbox */
 .cont {
   width: 80%;
   margin: 0 auto;
 }
-/***************способ 1***********/
+
 .flexbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-/********************************/
+
+/* Game Products */
 .product-item {
-  margin-top: 145px;
+  margin-top: 140px;
   margin-bottom: 10px;
   text-align: center;
   border: 1px solid #f5f5f5;
