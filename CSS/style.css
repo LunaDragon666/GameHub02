@@ -134,7 +134,27 @@ i.fa.fa-shopping-cart:hover {
   border-radius: 0px 0px 25px 25px;
 }
 
-/* Welcome CTA-button */
+/* Headings and Sections */
+h2 {
+  font-size: 2.1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.boxdec {
+  box-sizing: border-box;
+  background-color: #a312a6;
+  border-radius: 10px;
+  width: 45px;
+  height: 5px;
+  margin-left: 738px;
+  margin-bottom: 52px;
+}
+
+/* Gameshop */
 .main-cta {
   background: linear-gradient(120deg, #a312a6 0%, #560bbf 100%);
   color: #f2f2f2;
@@ -152,26 +172,6 @@ i.fa.fa-shopping-cart:hover {
 .main-cta:hover {
   color: #a312a6;
   background: #f2f2f2;
-}
-
-/* Headings and Sections */
-h2 {
-  font-size: 2.1em;
-  text-align: center;
-  text-transform: uppercase;
-  color: #f2f2f2;
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
-
-.boxdec {
-  box-sizing: border-box;
-  background-color: #a312a6;
-  border-radius: 10px;
-  width: 45px;
-  height: 5px;
-  margin-left: 738px;
-  margin-bottom: 52px;
 }
 
 /* Footer */
