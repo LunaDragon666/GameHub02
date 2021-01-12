@@ -134,17 +134,6 @@ i.fa.fa-shopping-cart:hover {
   border-radius: 0px 0px 25px 25px;
 }
 
-.welcome__content {
-  position: absolute;
-  text-align: center;
-  top: 250px;
-  left: 300px;
-}
-
-.welcome__content h2 {
-  color: #06041f;
-}
-
 /* Welcome CTA-button */
 .main-cta {
   background: linear-gradient(120deg, #a312a6 0%, #560bbf 100%);
