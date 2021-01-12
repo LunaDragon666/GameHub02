@@ -77,7 +77,7 @@ p.product_info {
   text-decoration: none;
   white-space: nowrap;
   font-size: 1em;
-  letter-spacing: 1.5;
+  letter-spacing: 1px;
 }
 
 .shop_button:hover {
