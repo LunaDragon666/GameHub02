@@ -29,6 +29,7 @@
   width: 100%;
   height: 435px;
   margin: 0 auto;
+  border-radius: 10px 10px 0px 0px;
 }
 
 /* Game Product Titles */
@@ -72,6 +73,11 @@
   white-space: nowrap;
   font-size: 1em;
 }
+
+.shop_button:hover {
+  background-color: #8c4ae8;
+}
+
 /***********способ 2*******************/
 .columns:after {
   content: "";
