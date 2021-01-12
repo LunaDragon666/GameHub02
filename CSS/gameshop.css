@@ -1,6 +1,6 @@
 /* Gameshop Flexbox */
 .cont {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -12,20 +12,16 @@
 
 /* Game Products */
 .product-item {
-  margin-top: 140px;
+  margin-top: 120px;
   margin-bottom: 10px;
   text-align: center;
-  border: 1px solid #f5f5f5;
-  border-bottom: 2px solid #f5f5f5;
-  background: white;
-  transition: 0.4s linear;
+  background: #f2f2f2;
+  border-radius: 15px;
+  width: 300px;
+  /* border-bottom: 2px solid #f5f5f5; */
 }
-.product-item:hover {
-  border-bottom: 2px solid #fc5a5a;
-}
-.product-item:hover .button {
-  background: #fc5a5a;
-}
+
+/* Images */
 .product-item img {
   display: block;
   height: auto;
@@ -33,36 +29,49 @@
   width: 100%;
   margin: 0 auto;
 }
+
+/* Game Product Titles */
+.product-list h3 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #06041f;
+  margin: 0 0 10px 0;
+}
+
+/* Game Product Price Info */
 .product-list {
   padding: 15px 0;
 }
-.product-list h3 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #444444;
-  margin: 0 0 10px 0;
-}
+
+/* Price Tags */
 .price_before,
 .price_now {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   color: #a312a6;
-  margin: 6px;
-  /* display: block;
-  margin-bottom: 12px; */
+  margin: 3px;
+  display: block;
+  margin-bottom: 12px;
 }
+
+.price_before {
+  text-decoration-line: line-through;
+  color: #0e1b4f;
+}
+
+/* Shopping Button */
 .shop_button {
   display: inline-block;
-  padding: 1px 19px 0;
+  padding: 1px 13px 7px;
+  padding-top: 6px;
   margin: 0 auto;
   background: #a312a6;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #f2f2f2;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  font-size: 1.2em;
-  line-height: 40x;
+  font-size: 1em;
 }
 /***********способ 2*******************/
 .columns:after {
