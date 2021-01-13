@@ -1,6 +1,10 @@
+body {
+  background-color: #f2f2f2;
+}
+
 .sidebar {
   position: fixed;
-  width: 25%;
+  width: 28%;
   height: 100vh;
   background: #312450;
   font-size: 0.65em;
