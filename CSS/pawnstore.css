@@ -127,9 +127,3 @@ textarea,
 button.continue_sale {
   width: 100%;
 }
-
-button.continue_sale,
-input,
-textarea {
-  padding: 0.5em;
-}
