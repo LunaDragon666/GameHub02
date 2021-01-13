@@ -36,8 +36,7 @@ form label {
 
 /* Pawnstation Form */
 label.form_titles {
-  margin: 0px 125px 10px 0px;
-  text-align: center;
+  margin: 0px 0px 10px 285px;
   color: #f2f2f2;
 }
 
@@ -60,7 +59,7 @@ input,
 textarea {
   font-family: "roboto mono";
   border-radius: 15px;
-  margin: 0px 0px 0px 325px;
+  margin: 0px 0px 0px 280px;
 }
 
 option {
@@ -74,7 +73,7 @@ option.choose {
 
 #select.condition {
   padding: 0.5em;
-  width: 500px;
+  width: 600px;
   margin: 0px 0px 0px 325px;
   border-radius: 15px;
 }
@@ -106,8 +105,7 @@ label.upload {
   padding: 1em;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 28px;
-  margin-left: 20px;
+  margin: 28px 0px 0px -72px;
 }
 
 /* Upload Icon */
