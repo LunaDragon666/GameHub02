@@ -40,7 +40,7 @@ GameHub
 
 <!-- Search Bar -->
 <i class="fas fa-search"></i>
-<input type="text" placeholder="Browse your games..">
+<input type="text" class="search" placeholder="Browse your games..">
 
 <!-- User Profile -->
 <button class="signup"><a href="signup.html">SignUp</a></button>
@@ -108,37 +108,46 @@ GameHub
 <!-- Gameshop CTA -->
 <a href="#" class="main-cta">View Store</a>
 
-<!-- Pawn Gameshop -->
+<!-- Pawnstation Gameshop -->
 <h2>Pawnstore</h2>
 <div class="boxdec"></div>
-<!-- Pawnshop Form -->
 <div class="wrapper">
-<h3>Sell your Games</h3>
-<p>Do you have games you no longer use or need? Turn your old games into income.</p>
+<p class="sell_games">Do you have games you no longer use or need? Turn your old games into income!</p>
 <form action="">
+<!-- Pawnstation Form -->
 <p>
-<label for="">Game Title</label>
-<input type="text">
+<label class="form_titles">Game Title</label>
+<input name="name" type="text" class="form_inputs" placeholder="Type your Game Name:">
 </p>
 <p>
-<label for="">Platform</label>
-<input type="email">
-</p>
-<p>
-<label for="">Game Condition</label>
-<select id="condition" name="condition">
-<option value="select">Select</option>
-<option value="used">Used</option>
-<option value="new">New</option>
+<label class="form_titles">Platform</label><select id="condition" class="con" name="condition">
+<option value="choose" class="choose">What Platform does your Game belong to?</option>
+<option value="battle.net">Battle.net</option>
+<option value="epic_games">Epic Games</option>
+<option value="origin">Origin</option>
+<option value="rockstar_games">Rockstar Games</option>
+<option value="steam">Steam</option>
+<option value="uplay">UPlay</option><option value="choose" class="choose">Cover Edition</option>
 </select>
 </p>
-      
-<p class="input-file-wrapper">
-<label for="upload">Upload your Game</label>
-<input type="file" name="Browse" id="upload">
-</p>
+
 <p>
-<button>Continue</button>
+<label class="form_titles">Condition</label>
+<select id="condition" class="con" name="condition">
+<option value="choose" class="choose">Is this game new or used?</option>
+<option value="used">Used</option>
+<option value="new">New</option>
+</select> 
+</p>
+
+<!-- Image File Uploader -->      
+<p class="input-file-wrapper">
+<label for="upload" class="upload"><i class="fas fa-upload" aria-hidden="true"></i></label>
+<input type="file" id="upload" hidden="">
+</p>
+<!-- CTA Pawnstation--> 
+<p>
+<button class="continue_sale">Continue</button>
 </p>
 </form>
 </div>
