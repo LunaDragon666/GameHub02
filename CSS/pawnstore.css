@@ -48,6 +48,11 @@ input.form_inputs {
   height: 35px;
 }
 
+input,
+textarea {
+  width: 100%;
+}
+
 select#condition,
 input,
 textarea {
