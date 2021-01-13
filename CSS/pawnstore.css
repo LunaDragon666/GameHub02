@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+h3 {
+  margin: 0;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+}
+
+.wrapper > * {
+  padding: 0.2em;
+}
+
+form label {
+  display: block;
+}
+
+form p {
+  margin: 0;
+  padding: 0px 0px 5px;
+}
+
+button,
+input,
+textarea {
+  padding: 0.5em;
+}
+
+button {
+  background: lightgrey;
+  width: 100%;
+  border: 0;
+}
+button:hover,
+button:focus {
+  background: gold;
+  outline: 0;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+form p {
+  grid-column: 1 / 2;
+}
+
+.input-file-wrapper {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+input#upload {
+  margin-left: -5px;
+}
+
+select#condition {
+  padding: 0.5em;
+  width: 100%;
+}
+
+select#condition,
+button,
+input,
+textarea {
+  border-radius: 10px;
+}
