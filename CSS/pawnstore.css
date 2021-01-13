@@ -44,8 +44,10 @@ label.form_titles {
 input.form_inputs {
   font-family: "roboto mono";
   border-radius: 20px;
+  padding: 1em;
   margin: 0px 0px 0px 325px;
   height: 35px;
+  width: 500px;
 }
 
 input,
@@ -56,13 +58,9 @@ textarea {
 select#condition,
 input,
 textarea {
-  border-radius: 10px;
-}
-
-select#condition,
-input,
-textarea {
   font-family: "roboto mono";
+  border-radius: 15px;
+  margin: 0px 0px 0px 325px;
 }
 
 option {
