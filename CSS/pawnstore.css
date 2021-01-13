@@ -36,7 +36,7 @@ form label {
 
 /* Pawnstation Form */
 label.form_titles {
-  margin: 0px 70px 10px 0px;
+  margin: 0px 125px 10px 0px;
   text-align: center;
   color: #f2f2f2;
 }
@@ -45,9 +45,9 @@ input.form_inputs {
   font-family: "roboto mono";
   border-radius: 20px;
   padding: 1em;
-  margin: 0px 0px 0px 325px;
+  margin: 0px 0px 0px 280px;
   height: 35px;
-  width: 500px;
+  width: 515px;
 }
 
 input,
