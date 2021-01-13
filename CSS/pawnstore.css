@@ -1,62 +1,82 @@
+/* Pawnstation Gameshop */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: -50px;
+  padding: 1em;
+}
+
 * {
   box-sizing: border-box;
 }
 
-.wrapper {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 1em;
+.sell_games {
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 0.8em;
+  margin: 25px 0px 35px 0px;
 }
 
-h3 {
+/* Pawnstation Gridsystem */
+form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 15px;
+}
+
+form p {
+  grid-column: 1 / 2;
   margin: 0;
-}
-
-input,
-textarea,
-button {
-  width: 100%;
-}
-
-.wrapper > * {
-  padding: 0.2em;
+  padding: 0px 0px 5px;
 }
 
 form label {
   display: block;
 }
 
-form p {
-  margin: 0;
-  padding: 0px 0px 5px;
+/* Pawnstation Form */
+label.form_titles {
+  margin: 0px 70px 10px 0px;
+  text-align: center;
+  color: #f2f2f2;
 }
 
-button,
+input.form_inputs {
+  font-family: "roboto mono";
+  border-radius: 20px;
+  margin: 0px 0px 0px 325px;
+  height: 35px;
+}
+
+select#condition,
 input,
 textarea {
+  border-radius: 10px;
+}
+
+select#condition,
+input,
+textarea {
+  font-family: "roboto mono";
+}
+
+option {
+  background: #cdc1dc;
+  color: #0e1b4f;
+}
+
+option.choose {
+  font-weight: bold;
+}
+
+#select.condition {
   padding: 0.5em;
+  width: 500px;
+  margin: 0px 0px 0px 325px;
+  border-radius: 15px;
 }
 
-button {
-  background: lightgrey;
-  width: 100%;
-  border: 0;
-}
-button:hover,
-button:focus {
-  background: gold;
-  outline: 0;
-}
-
-form {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 20px;
-}
-form p {
-  grid-column: 1 / 2;
-}
-
+/* Image File Uploader */
 .input-file-wrapper {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
@@ -71,9 +91,45 @@ select#condition {
   width: 100%;
 }
 
-select#condition,
-button,
+/* Upload Button */
+label.upload {
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #9c159e;
+  color: #f2f2f2;
+  padding: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 28px;
+  margin-left: 20px;
+}
+
+/* Upload Icon */
+i.fas.fa-upload {
+  margin: 0px 5px 0px 5px;
+}
+
+/* CTA Pawnstation */
+button.continue_sale {
+  background: linear-gradient(120deg, #560bbf 0%, #a312a6 100%);
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 35px 0px 50px 525px;
+}
+
+/* ? */
+input,
+textarea,
+button.continue_sale {
+  width: 100%;
+}
+
+button.continue_sale,
 input,
 textarea {
-  border-radius: 10px;
+  padding: 0.5em;
 }
