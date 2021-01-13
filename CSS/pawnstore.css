@@ -120,10 +120,3 @@ button.continue_sale {
   border-radius: 20px;
   margin: 35px 0px 50px 525px;
 }
-
-/* ? */
-input,
-textarea,
-button.continue_sale {
-  width: 100%;
-}
