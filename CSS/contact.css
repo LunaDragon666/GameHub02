@@ -16,11 +16,11 @@ p {
   position: inherit;
 }
 
-footer {
+/* footer {
   position: absolute;
   bottom: 0px;
   min-width: 1536px;
-}
+} */
 
 /* Contact Form */
 .form-text {
