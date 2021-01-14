@@ -54,22 +54,19 @@ width: 100%;
 
 /* Dropdown Menu Inside */
 .navbar a {
-  font-size: 1em;
-  color: #f2f2f2;
-  padding: 14px 16px;
-  text-decoration: none;
+  font-size: 1.5em;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f2f2f2;
+  background-color: #d7b9ff;
   min-width: 150px;
   z-index: 1;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #312450;
 }
 
 .dropdown-content a {
