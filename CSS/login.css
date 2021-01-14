@@ -34,3 +34,11 @@ p {
   font-weight: bold;
   margin-top: 20px;
 }
+
+/* Footer */
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
