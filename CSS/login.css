@@ -11,6 +11,11 @@ body {
   font-size: 0.65em;
 }
 
+/* Dropdown Arrow */
+i.fa.fa-caret-down {
+  margin: 0 auto;
+}
+
 /* Profile Dropdown Menu */
 .navbar {
   overflow: hidden;
