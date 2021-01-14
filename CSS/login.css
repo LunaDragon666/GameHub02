@@ -95,7 +95,7 @@ i.fa.fa-caret-down {
   min-width: 150px;
   z-index: 1;
   border-radius: 5px 5px 10px 10px;
-  margin: -15px 0px 0px 95px;
+  margin: -10px 0px 0px 95px;
 }
 
 .dropdown-content a:hover {
