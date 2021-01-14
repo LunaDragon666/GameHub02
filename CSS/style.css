@@ -101,6 +101,14 @@ button {
 }
 
 /* Login */
+a.log {
+  color: #f2f2f2;
+}
+
+a.log:hover {
+  color: #a312a6;
+}
+
 button.login {
   background-color: #d7b9ff;
   border: 2px solid #560bbf;
@@ -113,6 +121,7 @@ button.login {
 
 button.login:hover {
   background-color: #f2f2f2;
+  color: #1d073c;
 }
 
 /* Navbar Icons */
