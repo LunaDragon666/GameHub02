@@ -115,6 +115,8 @@ i.fa.fa-caret-down {
 
 /* Signout Button */
 i.fas.fa-sign-out-alt {
+  font-size: 3em;
+  color: #f2f2f2;
   margin: 90px 0px 0px 350px;
 }
 
