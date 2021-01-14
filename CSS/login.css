@@ -37,7 +37,7 @@ body {
   background: #0d1846;
 }
 
-.dropbtn:hover {
+button.dropbtn:hover {
   color: #a312a6;
 }
 
