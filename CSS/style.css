@@ -101,22 +101,19 @@ button {
 }
 
 /* Login */
-a.log {
-  color: #f2f2f2;
-}
-
 a.log:hover {
   color: #a312a6;
 }
 
 button.login {
   background-color: #d7b9ff;
-  border: 2px solid #560bbf;
+  border: 2px solid hsl(265, 89%, 40%);
+  color: #1d073c;
   font-weight: bold;
 }
 
 .login a {
-  color: #1d073c;
+  color: #f2f2f2;
 }
 
 button.login:hover {
