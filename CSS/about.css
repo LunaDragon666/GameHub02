@@ -52,3 +52,11 @@ img {
 img:hover {
   opacity: 0.9;
 }
+
+/* Footer */
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
