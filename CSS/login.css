@@ -45,12 +45,12 @@ i.fa.fa-caret-down {
 /* .dropbtn {
 height: 100%;
 width: 100%;
-} */
+} 
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: red;
-}
+} */
 
 /* Dropdown Menu Inside */
 .navbar a {
