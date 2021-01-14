@@ -58,7 +58,6 @@ nav ul li a {
 }
 
 li a:hover {
-  text-decoration: line-through;
   color: #a312a6;
 }
 
