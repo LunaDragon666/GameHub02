@@ -92,7 +92,7 @@ i.fa.fa-caret-down {
   display: none;
   position: absolute;
   background-color: #0d1846;
-  min-width: 185px;
+  min-width: 150px;
   z-index: 1;
   border-radius: 5px 5px 10px 10px;
   margin: -15px 0px 0px 95px;
