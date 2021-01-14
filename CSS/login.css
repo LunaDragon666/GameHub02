@@ -33,9 +33,13 @@ body {
   list-style: none;
 }
 
-.user_menu a:hover,
+.user_menu a:hover {
+  background: #0d1846;
+}
+
 .dropbtn:hover {
   background: #0d1846;
+  color: #a312a6;
 }
 
 .active a,
