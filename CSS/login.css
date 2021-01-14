@@ -71,7 +71,7 @@ i.fa.fa-caret-down {
   color: #f2f2f2;
   padding: 14px 16px;
   background-color: inherit;
-  margin: 0;
+  margin: 0px 0px 0px -15px;
 }
 
 .dropdown {
@@ -95,7 +95,7 @@ i.fa.fa-caret-down {
   min-width: 185px;
   z-index: 1;
   border-radius: 5px 5px 10px 10px;
-  margin: -10px 0px 0px 115px;
+  margin: -15px 0px 0px 95px;
 }
 
 .dropdown-content a:hover {
