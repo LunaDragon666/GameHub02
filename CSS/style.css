@@ -186,4 +186,8 @@ footer {
   padding: 20px;
   color: #f2f2f2;
   background-color: #06041f;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
