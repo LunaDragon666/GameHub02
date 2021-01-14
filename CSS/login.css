@@ -11,7 +11,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin: -100px 0px -150px 50px;
+  margin: -100px 0px -125px 50px;
   object-fit: cover;
   object-position: center right;
 }
