@@ -125,14 +125,14 @@ i.fas.fa-sign-out-alt:hover {
 }
 
 /* Userprofile Dashboard */
-.text {
+.dashboard {
   position: relative;
   width: 75%;
   float: right;
   height: 100vh;
 }
 
-.con_tain {
+.info_dashboard {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,11 +140,12 @@ i.fas.fa-sign-out-alt:hover {
   height: 100%;
 }
 
-p {
+/* Profile Text */
+h2 {
   text-transform: uppercase;
-  font-size: 1em;
-  letter-spacing: 0.1em;
-  color: #fff;
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  color: #f2f2f2;
   font-weight: bold;
   margin-top: 20px;
 }
