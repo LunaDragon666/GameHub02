@@ -83,3 +83,11 @@ p.log {
   margin-top: 45px;
   text-align: center;
 }
+
+/* Footer */
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
