@@ -51,6 +51,77 @@ GameHub
 </div>
 </header>
 
+<!-- Checkout Page -->
+<main class="checkout_page">
+<section class="cart">
+<!-- Product Item -->
+<div class="cart-item">
+<img src="images/ac.jpg" class="image">
+<p class="title">Lorem ipsum dolor <span>2.5cm &times; 2.8cm</span></p>
+<p class="currency">CHF</p>
+<p class="price">4.25</p>
+</div>
+<!-- Checkout Total Price -->
+<div class="shipping">
+<p class="title">Shipping</p>
+<p class="currency">CHF</p>
+<p class="price">2.70</p>
+</div>
+<div class="total">
+<p class="title">Total</p>
+<p class="currency">CHF</p>
+<p class="price">16.80</p>
+</div>
+
+<!-- Checkout Payment -->
+</section>
+<section class="checkout">
+<header>
+<h1>Checkout</h1>
+<p>by Credit Card</p>
+</header>
+
+<!-- Checkout Form -->
+<form action="post">
+<div class="input-group">
+<div class="labell">
+<label for="name">Full Name</label>
+</div>
+<div class="input">
+<input type="text" id="name" placeholder="Jane Doe" required>
+</div>
+</div>
+<div class="input-group">
+<div class="label">
+<label for="number">Card Number</label>
+</div>
+<div class="input number">
+<input type="number" min="1000" max="9999" id="number" placeholder="0000" required><span>&ndash;</span><input type="number" min="1000" max="9999" placeholder="0000" required><span>&ndash;</span><input type="number" min="1000" max="9999" placeholder="0000" required><span>&ndash;</span><input type="number" min="1000" max="9999" placeholder="0000" required>
+</div>
+</div>
+<div class="input-group">
+<div class="label">
+<label for="cvc">Security Code</label>
+</div>
+<div class="input">
+<input type="number" id="cvc" placeholder="000" min="001" max="999" step="1" required>
+</div>
+</div>
+<div class="input-group">
+<div class="label">
+<label for="expire-month">Expiry</label>
+</div>
+<div class="input">
+<input type="month" id="expire-month" required>
+</div>
+
+<!-- Checkout Button -->
+<button class="buy">Charge Credit Card</button>
+</div>
+</form>
+</section>
+</main>
+
 <!-- Footer -->
 <footer>
 Copyright &copy;
