@@ -36,6 +36,19 @@ i.fas.fa-trash {
 i.fas.fa-trash:hover {
   color: #a312a6;
 }
+/* Cart Decor */
+.decor-overline,
+.decor-underline {
+  border: 0.1px solid #36108d;
+  width: 400px;
+  position: absolute;
+}
+.decor-overline {
+  margin: 0 auto;
+}
+.decor-underline {
+  margin: 210px 0px;
+}
 /* Cart Section Element Position */
 h2.cart-headings,
 h3.cart_subheading1,
