@@ -1,35 +1,15 @@
-.box {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-  transition: all 0.8s;
+.checkout_page {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
 }
 
-.box p {
-  font-size: 5em;
+.cart,
+.payment {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
   text-align: center;
-}
-
-.day {
-  background: #e9b600;
-  color: #efefef;
-}
-
-.night {
-  background: #282b31;
-  color: #8958a7;
-}
-
-.collapse {
-  flex-grow: 0.2;
-}
-
-.collapse.day {
-  color: #e9b600;
-  background: black;
-}
-
-.collapse.night {
-  color: #8958a7;
-  background: black;
+  line-height: 75px;
+  font-size: 30px;
 }
