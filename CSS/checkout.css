@@ -66,12 +66,12 @@ h3 {
   letter-spacing: 0.02em;
 }
 h3.cart_subheading1 {
-  margin: 80px 125px;
+  margin: 30px 125px;
   font-size: 1em;
   text-transform: uppercase;
 }
 .cart_subheading2 {
-  margin: 105px 125px;
+  margin: 55px 125px;
   font-size: 0.8em;
 }
 .product_number {
@@ -81,7 +81,7 @@ h3.cart_subheading1 {
 .subtotal {
   font-size: 0.8em;
   text-transform: uppercase;
-  margin: 158px 128px;
+  margin: 138px 128px;
 }
 .cart_price {
   margin: 180px 128px;
