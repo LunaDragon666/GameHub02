@@ -1,3 +1,13 @@
-h2 {
-  margin-top: 10%;
+.checkout-page {
+  display: flex;
+  position: absolute;
+  margin: 100px;
+}
+
+.cart,
+.payment {
+  flex: 1;
+  border: 2px solid yellow;
+  min-height: 250px;
+  min-width: 250px;
 }
