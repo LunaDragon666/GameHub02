@@ -36,7 +36,8 @@ body {
 /* Cart Trash-Button */
 i.fas.fa-trash {
   position: absolute;
-  margin: 186px 369px;
+  margin: 136px 369px;
+  color: #0e1b4f;
 }
 i.fas.fa-trash:hover {
   color: #a312a6;
@@ -75,16 +76,16 @@ h3.cart_subheading1 {
   font-size: 0.8em;
 }
 .product_number {
-  margin: 180px 280px;
+  margin: 130px 280px;
 }
 /* Cart Price */
 .subtotal {
   font-size: 0.8em;
   text-transform: uppercase;
-  margin: 138px 128px;
+  margin: 110px 128;
 }
 .cart_price {
-  margin: 180px 128px;
+  margin: 130px 128px;
 }
 
 .tax_heading {
