@@ -87,6 +87,9 @@ h3.cart_subheading1 {
   margin: 130px 280px;
 }
 /* Cart Price */
+.pricing {
+  margin: -15px 0px;
+}
 .subtotal {
   font-size: 0.8em;
   text-transform: uppercase;
