@@ -138,6 +138,7 @@ input.checkout-input.checkout-yy,
 input.checkout-input.checkout-card,
 input.checkout-input.checkout-cvc {
   position: absolute;
+  border: none;
   border-radius: 10px;
   height: 20px;
   padding: 0px 5px;
@@ -182,5 +183,9 @@ p.purcase {
 input.checkout-btn {
   margin: -10px 0px;
   border-radius: 10px;
-  width: 30px;
+  width: 80px;
+  height: 25px;
+  background: #a312a6;
+  color: #f2f2f2;
+  border: none;
 }
