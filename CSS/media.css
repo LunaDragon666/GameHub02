@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:400,700&display=swap");
+
+body {
+  background: #0e1b4f;
+  font-family: "Roboto Mono";
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #f2f2f2;
+  background-color: #06041f;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+}
