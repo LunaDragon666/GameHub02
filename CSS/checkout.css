@@ -10,8 +10,8 @@ body {
 
 /* Cart Section */
 .cart {
-  min-height: 350px;
-  border-radius: 15px 0px 0px 15px;
+  min-height: 525px;
+  border-radius: 15px 0px 15px 15px;
   background: #d0c3e2;
 }
 .cart,
@@ -95,27 +95,22 @@ h3.cart_subheading1 {
 .cart_price {
   margin: 130px 128px;
 }
-
 .tax_heading {
   margin: 250px 20px;
   font-size: 1em;
 }
-
 .tax {
   margin: 250px 280px;
 }
-
 .total_heading {
   margin: 275px 20px;
   font-size: 2em;
   text-transform: uppercase;
 }
-
 .total {
   margin: 275px 265px;
   font-size: 2em;
 }
-
 /* Back to Store-Button */
 a.main-cta {
   position: absolute;
@@ -125,21 +120,66 @@ a.main-cta {
 /* Payment Section */
 .payment {
   background: #f2f2f2;
-  height: 575px;
+  height: 275px;
+  border-radius: 0px 15px 15px 0px;
 }
-
-.cart-headings,
-.decor-over {
-  position: absolute;
-}
-
 h2.cart-headings {
   color: #0e1b4f;
   margin: 15px 20px;
 }
-
-.decor-over {
-  border: 0.1px solid #36108d;
-  width: 400px;
-  margin: 75px 0px;
+/* Checkout Form */
+form.checkout {
+  margin: 170px 30px;
+}
+/* Form Box Styling */
+input.checkout-input.checkout-name,
+input.checkout-input.checkout-mm,
+input.checkout-input.checkout-yy,
+input.checkout-input.checkout-card,
+input.checkout-input.checkout-cvc {
+  position: absolute;
+  border-radius: 10px;
+  height: 20px;
+  padding: 0px 5px;
+  font-family: "roboto mono";
+}
+/* Input Styling */
+input.checkout-input.checkout-name {
+  margin: 0;
+  width: 325px;
+}
+input.checkout-input.checkout-mm {
+  margin: 35px 175px;
+}
+input.checkout-input.checkout-yy {
+  margin: 35px 0px;
+}
+p.card {
+  margin: 15px 0px;
+}
+input.checkout-input.checkout-mm,
+input.checkout-input.checkout-yy,
+input.checkout-input.checkout-card,
+input.checkout-input.checkout-cvc input.checkout-input.checkout-card {
+  width: 150px;
+}
+input.checkout-input.checkout-card {
+  margin: -20px 0px;
+}
+input.checkout-input.checkout-cvc {
+  margin: -20px 175px;
+}
+/* Purcase Button */
+.purcase,
+.checkout-btn {
+  position: absolute;
+  font-family: "roboto mono";
+}
+p.purcase {
+  margin: 35px 0px;
+}
+input.checkout-btn {
+  margin: -10px 0px;
+  border-radius: 10px;
+  width: 30px;
 }
