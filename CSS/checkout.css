@@ -117,14 +117,13 @@ h3.cart_subheading1 {
 /* Back to Store-Button */
 a.main-cta {
   position: absolute;
-  margin: 350px 75px;
+  margin: 375px 75px;
   background: #a312a6;
 }
 a.main-cta:hover {
   background: #af4fb1;
   color: #f2f2f2;
   font-weight: bold;
-  border: 3px solid #a312a6;
 }
 /* Payment Section */
 .payment {
