@@ -115,16 +115,20 @@ h3.cart_subheading1 {
 a.main-cta {
   position: absolute;
   margin: 350px 75px;
+  background: #f2f2f2;
+  color: #a312a6;
+  font-weight: bold;
+  border: 3px solid #a312a6;
 }
 
 /* Payment Section */
 .payment {
-  background: #f2f2f2;
+  background: #2f0071;
   height: 275px;
   border-radius: 0px 15px 15px 0px;
 }
 h2.cart-headings {
-  color: #0e1b4f;
+  color: #f2f2f2;
   margin: 15px 20px;
 }
 /* Checkout Form */
@@ -140,8 +144,8 @@ input.checkout-input.checkout-cvc {
   position: absolute;
   border: none;
   border-radius: 10px;
-  height: 20px;
-  padding: 0px 5px;
+  height: 25px;
+  padding: 0px 10px;
   font-family: "roboto mono";
   width: 150px;
 }
@@ -176,6 +180,7 @@ input.checkout-input.checkout-cvc {
 .checkout-btn {
   position: absolute;
   font-family: "roboto mono";
+  letter-spacing: 1.5px;
 }
 p.purcase {
   margin: 35px 0px;
@@ -183,9 +188,10 @@ p.purcase {
 input.checkout-btn {
   margin: -10px 0px;
   border-radius: 10px;
-  width: 80px;
+  width: 100px;
   height: 25px;
   background: #a312a6;
   color: #f2f2f2;
   border: none;
+  text-transform: uppercase;
 }
