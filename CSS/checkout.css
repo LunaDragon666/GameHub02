@@ -118,8 +118,8 @@ a.main-cta {
   background: #a312a6;
 }
 a.main-cta:hover {
-  background: #f2f2f2;
-  color: #a312a6;
+  background: #af4fb1;
+  color: #f2f2f2;
   font-weight: bold;
   border: 3px solid #a312a6;
 }
@@ -198,5 +198,5 @@ input.checkout-btn {
   text-transform: uppercase;
 }
 input.checkout-btn:hover {
-  background: #570bc1;
+  background: #af4fb1;
 }
