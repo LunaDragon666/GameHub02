@@ -191,9 +191,12 @@ input.checkout-btn {
   margin: -10px 0px;
   border-radius: 10px;
   width: 100px;
-  height: 25px;
+  height: 30px;
   background: #a312a6;
   color: #f2f2f2;
   border: none;
   text-transform: uppercase;
+}
+input.checkout-btn:hover {
+  background: #570bc1;
 }
