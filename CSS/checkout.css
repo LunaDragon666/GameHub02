@@ -115,12 +115,14 @@ h3.cart_subheading1 {
 a.main-cta {
   position: absolute;
   margin: 350px 75px;
+  background: #a312a6;
+}
+a.main-cta {
   background: #f2f2f2;
   color: #a312a6;
   font-weight: bold;
   border: 3px solid #a312a6;
 }
-
 /* Payment Section */
 .payment {
   background: #2f0071;
