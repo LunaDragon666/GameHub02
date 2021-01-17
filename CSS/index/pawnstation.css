@@ -124,4 +124,5 @@ button.continue_sale {
   color: #f2f2f2;
   text-transform: uppercase;
   letter-spacing: 2px;
+  border: none;
 }
