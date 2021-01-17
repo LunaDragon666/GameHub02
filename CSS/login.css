@@ -40,7 +40,6 @@ body {
   text-transform: uppercase;
   line-height: 2.5;
   list-style: none;
-  text-decoration: none;
 }
 
 .user_menu a:hover {
