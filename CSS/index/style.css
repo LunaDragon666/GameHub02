@@ -132,7 +132,7 @@ i.fa.fa-shopping-cart:hover {
 
 /* Header */
 .welcome {
-  background-image: url("../images/gamer.jpg") center bottom no-repeat;
+  background: url("../images/gamer.jpg") center bottom no-repeat;
   background-size: cover;
   min-height: 100vh;
   position: relative;
