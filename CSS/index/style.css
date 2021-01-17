@@ -123,7 +123,6 @@ a {
 li.signup_button {
   background: #560bbf;
   border-radius: 20px;
-  padding: -10px 10px;
 }
 
 li.signup_button a:hover {
@@ -151,6 +150,7 @@ li.signup_button a:hover {
   border-right: none;
   outline: none;
   font-size: 0.8em;
+  font-weight: bold;
   margin: 0 auto;
 }
 .search-button {
