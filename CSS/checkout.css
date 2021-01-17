@@ -2,9 +2,10 @@ body {
   background: #36108d;
 }
 
-/* Search Box */
-.search-input {
-  height: 15px;
+.checkout-page {
+  display: flex;
+  position: absolute;
+  margin: 150px 0px 0px 350px;
 }
 
 /* Cart Section */
