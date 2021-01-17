@@ -2,6 +2,10 @@ body {
   background: #36108d;
 }
 
+.search-input {
+  height: 15px;
+}
+
 .checkout-page {
   display: flex;
   position: absolute;
