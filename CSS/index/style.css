@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:400,700&display=swap");
+
+body {
+  background: #0e1b4f;
+  margin: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Roboto Mono";
+}
+
+/* Logo */
+.header h1 {
+  top: 0px;
+  margin: 0px -15px;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  color: #f2f2f2;
+}
+
+/* Top Navigation */
+.header {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #06041f;
+  color: #f2f2f2;
+}
+
+.container {
+  position: relative;
+  margin: 0px 50px;
+  width: 94%;
+  max-width: 1000px;
+}
+
+nav {
+  position: fixed;
+  top: -15px;
+  right: 25px;
+}
+
+/* Main Menu */
+nav ul li {
+  float: left;
+  list-style: none;
+}
+
+/* Links */
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0px 35px 0px 30px;
+  margin-right: -10px;
+  margin-left: -35px;
+}
+
+li a:hover {
+  color: #a312a6;
+}
+
+/* Search Bar */
+input.search {
+  background-color: #f2f2f2;
+  height: 4px;
+  width: 625px;
+  padding: 0.9em;
+  margin-right: 50px;
+  margin-left: -25px;
+  border-radius: 10px;
+  border: none;
+  font-family: "roboto mono";
+}
+
+i.fas.fa-search {
+  margin-left: 20px;
+}
+
+/* User Profile */
+a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+button {
+  font-family: "Roboto Mono";
+  background-color: #560bbf;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 11px;
+  cursor: pointer;
+}
+
+/* Login */
+button.login {
+  background-color: #d7b9ff;
+  border: 2px solid hsl(265, 89%, 40%);
+  color: #1d073c;
+  font-weight: bold;
+}
+
+.login a {
+  color: #1d073c;
+}
+
+button.login:hover {
+  background-color: #f2f2f2;
+  color: #1d073c;
+}
+
+/* Navbar Icons */
+i {
+  margin: 0px 35px;
+}
+
+/* Shopping Cart */
+i.fa.fa-shopping-cart {
+  cursor: pointer;
+}
+
+i.fa.fa-shopping-cart:hover {
+  color: #a312a6;
+}
+
+/* Header */
+.welcome {
+  background: url("../images/cyberpunk2077.jpg") center bottom no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  border-radius: 0px 0px 25px 25px;
+}
+
+/* Headings and Sections */
+h2 {
+  font-size: 2.1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-top: 75px;
+  margin-bottom: 10px;
+}
+
+.boxdec {
+  box-sizing: border-box;
+  background-color: #a312a6;
+  border-radius: 10px;
+  width: 45px;
+  height: 5px;
+  margin-left: 738px;
+  margin-bottom: 52px;
+}
+
+/* Gameshop */
+.main-cta {
+  background: linear-gradient(120deg, #a312a6 0%, #560bbf 100%);
+  color: #f2f2f2;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 15px 50px;
+  margin: 40px 660px 0px;
+}
+
+.main-cta:hover {
+  color: #a312a6;
+  background: #f2f2f2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #f2f2f2;
+  background-color: #06041f;
+}
