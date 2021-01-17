@@ -15,7 +15,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin: -100px 0px -125px 50px;
+  margin: -100px 0px -125px 15px;
   object-fit: cover;
   object-position: center right;
 }
@@ -75,7 +75,7 @@ i.fa.fa-caret-down {
   color: #f2f2f2;
   padding: 14px 16px;
   background-color: inherit;
-  margin: 0 auto;
+  margin: 00px 0px 0px 25px;
 }
 
 .dropdown {
