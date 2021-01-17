@@ -132,11 +132,7 @@ i.fa.fa-shopping-cart:hover {
 
 /* Header */
 .welcome {
-  background: url(../images/gamer.jpg);
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-  border-radius: 0px 0px 25px 25px;
+  min-height: 0.1vh;
 }
 
 /* Headings and Sections */
@@ -145,7 +141,7 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: #f2f2f2;
-  margin-top: 75px;
+  margin-top: 85px;
   margin-bottom: 10px;
 }
 
