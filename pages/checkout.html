@@ -17,38 +17,31 @@
 
 <body>
 <!-- Top Navigation -->
-<header class= "header">
-    <div class="container">
-    <!-- Logo -->
-    <h1>
-    GameHub
-    </h1>
-    
-    <!-- Main Menu -->
-    <nav class="nav">
-    <ul>
-    <li>
-    <a href="../index.html">Home</a>
-    </li>
-    <li>
-    <a href="../pages/about.html">About</a>
-    </li>
-    <li>
-    <a href="../pages/contact.html">Contact</a>
-    </li>
-    
-    <!-- Search Bar -->
-    <i class="fas fa-search"></i>
-    <input type="text" class="search" placeholder="Browse your games..">
-    
-    <!-- User Profile -->
-    <button class="signup"><a href="../pages/signup.html">SignUp</a></button>
-    <button class="login"><a href="../pages/login.html">LogIn</a></button>
-    <!-- Shopping Cart -->
-    <a href="../pages/checkout.html"><i class="fa fa-shopping-cart"></i></a>
-    </nav>
+<header class="header">
+    <a href="../index.html" class="logo">GameHub</a>
+    <!-- Hamburger Menu -->
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <!-- User Menu -->
+    <ul class="menu">
+    <li class="signup_button"><a href="pages/signup.html">Signup</a></li>
+    <li class="login_button"><a href="pages/login.html"><i class="fas fa-user-alt"></i></a></li>
+    <li class="shopping_cart"><a href="pages/checkout.html"><i class="fa fa-shopping-cart"></i></a></li>
     </ul>
+    <!-- Search Bar -->        
+    <div class="container">
+    <div class="search-box">
+    <input type="text" class="search-input" placeholder="Browse Games ...">
+    <button class="search-button">
+    <i class="fas fa-search"></i>
+    </button>
     </div>
+    </div>
+    <!-- Nav Bar -->        
+    <ul class="topmenu">
+    <li><a href="pages/about.html">About</a></li>
+    <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
     </header>
 
 <!-- Checkout Page -->
