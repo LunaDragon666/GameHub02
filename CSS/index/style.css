@@ -132,7 +132,8 @@ i.fa.fa-shopping-cart:hover {
 
 /* Header */
 .welcome {
-  background: url(../images/header/cyberpunk2077.jpg) center bottom no-repeat;
+  background-image: url("../../images/header/cyberpunk2077.jpg") center bottom
+    no-repeat;
   background-size: cover;
   min-height: 100vh;
   position: relative;
