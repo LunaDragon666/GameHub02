@@ -32,8 +32,7 @@ body {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f2f2f2;
-  color: #06041f;
+  color: #a312a6;
 }
 
 a {
@@ -127,9 +126,15 @@ li.signup_button {
   padding: -10px 10px;
 }
 
+li.signup_button a:hover {
+  color: f2f2f2;
+  background: #8c4ae8;
+  border-radius: 20px;
+}
+
 /* Search Box */
 .search-box {
-  max-width: 100%;
+  max-width: 90%;
   position: relative;
   display: flex;
   background: #f2f2f2;
@@ -139,19 +144,17 @@ li.signup_button {
 .search-input {
   font-family: "roboto mono";
   width: 100%;
-  height: 10px;
+  height: 36px;
   padding: 10px;
   border: 1px solid #f2f2f2;
   border-radius: 15px 0 0 15px;
   border-right: none;
   outline: none;
   font-size: 0.8em;
-  color: tomato;
-  background: none;
+  margin: 0 auto;
 }
 .search-button {
   text-align: center;
-  height: 32px;
   width: 45px;
   outline: none;
   cursor: pointer;
