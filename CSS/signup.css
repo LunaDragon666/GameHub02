@@ -1,3 +1,11 @@
+.search-input {
+  height: 15px;
+}
+
+.search-input {
+  top: 4%;
+}
+
 /* Form Signup */
 input.feedback-input {
   padding: 15px;
